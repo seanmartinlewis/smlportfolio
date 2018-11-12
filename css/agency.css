@@ -28,13 +28,15 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: grey;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #2F4F4F;
+  text-decoration: none;
+  cursor: pointer;
 }
 h1,
 h2,
@@ -285,15 +287,17 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   max-width: 700px;
   padding: 5px;
   margin: 0 auto;
   margin-bottom: 75px;
-  color: #222
+  color: grey;
+}
+p.section-subheading {
+    margin-bottom: 60px;
 }
 @media (min-width: 768px) {
   section {
